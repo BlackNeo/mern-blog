@@ -12,9 +12,9 @@ import Navbar   from './components/layouts/Navbar';
 import Footer   from './components/layouts/Footer';
 import Articles from './components/Articles';
 import Article from './components/Article';
-import AddArticle from './components/AddArticle'
-import UpdateArticle from './components/UpdateArticle'
-import DeleteArticle from './components/DeleteArticle'
+import AddArticle from './components/AddArticle';
+import UpdateArticle from './components/UpdateArticle';
+import DeleteArticle from './components/DeleteArticle';
 
 function App() {
   return (
