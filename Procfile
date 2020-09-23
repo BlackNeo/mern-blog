@@ -1,1 +1,1 @@
-web: node server.js
+web: concurrently "npm run server" "npm run client"
