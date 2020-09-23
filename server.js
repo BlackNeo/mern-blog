@@ -10,7 +10,7 @@ const port = process.env.port || 8080;
 app.use(cors());
 app.use(express.json());
 
-const uri = process.env.ATLAS_URI;
+const uri = "mongodb+srv://webo:1234@cluster0.r9dta.mongodb.net/mern_blog?retryWrites=true&w=majority";
 
 mongoose.connect(uri, {
     useNewUrlParser: true,
