@@ -1,5 +1,5 @@
 import React from 'react';
-const URI = "http://127.0.0.1:5000/articles/";
+const URI = "https://mern-stack-blog-geni.herokuapp.com:5000/articles/";
 
 class DeleteArticle extends React.Component {
     constructor(props){
