@@ -12,7 +12,7 @@
     "client": "npm start prefix --client",
     "dev": "concurrently \"npm run server\" \"npm run client\"",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "postinstall": "npm run client",
+    "postinstall": "npm start prefix --client",
     "start": "node server.js"
   },
   "repository": {
