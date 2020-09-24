@@ -39,7 +39,7 @@ class Articles extends React.Component {
             return (
                 <div className="container">
                    {articles.map(article => (
-                        <div className="p-5" key={article._id}>
+                        <div className="p-5 col-md-6" key={article._id}>
                             <Link to={`/article/${article._id}`}>
                                 <h2>{article.title}</h2>
                             </Link>
