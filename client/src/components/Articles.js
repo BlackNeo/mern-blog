@@ -2,7 +2,7 @@ import React from 'react'
 import spinner from "../spinner.gif"
 import { Link } from 'react-router-dom'
 
-const URI = "https://127.0.0.1:5000/articles";
+const URI = "https://0.0.0.0:5000/articles";
 
 class Articles extends React.Component {
     constructor(props){
