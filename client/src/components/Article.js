@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-const URI = "/articles/";
+const URI = "https://localhost:5000/articles/";
 
 class Article extends React.Component {
     constructor(props){
