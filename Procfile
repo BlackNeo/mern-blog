@@ -1,1 +1,1 @@
-web: node server.js && npm start
+web: nodemon server.js && npm start prefix --client
