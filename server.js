@@ -25,5 +25,5 @@ connection.once("open", () =>
 const articlesRouter = require('./routes/articles');
 app.use('/articles', articlesRouter);
 
-app.listen(port, () => console.log(`Application tournant sur le port : ${port} `)
-);
+app.listen(8080, () => {console.log(`Application tournant sur le port : ${port} `)
+});
