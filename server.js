@@ -5,7 +5,7 @@ const cors = require('cors');
 require('dotenv').config();
 
 const app = express();
-const port = process.env.port || 8080;
+const port = process.env.port || 5000;
 
 app.use(cors());
 app.use(express.json());
@@ -25,5 +25,5 @@ connection.once("open", () =>
 const articlesRouter = require('./routes/articles');
 app.use('/articles', articlesRouter);
 
-app.listen(8080, () => {console.log(`Application tournant sur le port : ${port} `)
+app.listen(5000, () => {console.log(`Application tournant sur le port : ${port} `)
 });
