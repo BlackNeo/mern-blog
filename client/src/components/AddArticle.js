@@ -1,5 +1,5 @@
 import React from 'react'
-const URI = "https://0.0.0.0:5000/articles/add";
+const URI = "/articles/add";
 
 class AddArticle extends React.Component {
     constructor(){

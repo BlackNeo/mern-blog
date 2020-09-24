@@ -1,5 +1,5 @@
 import React from 'react';
-const URI = "https://0.0.0.0:5000/articles/";
+const URI = "/articles/";
 
 class DeleteArticle extends React.Component {
     constructor(props){

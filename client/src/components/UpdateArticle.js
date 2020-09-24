@@ -1,5 +1,5 @@
 import React from 'react'
-const URI = "http://0.0.0.0:5000/articles/"
+const URI = "/articles/"
 
 class UpdateArticle extends React.Component {
     constructor(props){
