@@ -1,5 +1,5 @@
 import React from 'react'
-const URI = "http://localhost:8080/articles/add";
+const URI = "http://127.0.0.1:8080/articles/add";
 
 class AddArticle extends React.Component {
     constructor(){
