@@ -26,5 +26,12 @@ connection.once("open", () =>
 const articlesRouter = require('./routes/articles');
 app.use('/articles', articlesRouter);
 
+if (process.env.NODE_ENV === "production"{
+    app.use(express.static("build"));
+    app.get("*", (req, res) => {
+      res.sendFile(path.resolve(__dirname,  "build", "index.html"));
+    });
+  }
+
 app.listen(PORT, HOST, () => {console.log(`Application tournant sur le port : ${PORT} `)
 });
